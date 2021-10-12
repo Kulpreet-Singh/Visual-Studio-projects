@@ -1,0 +1,35 @@
+module myAnd(S,Ca,A,B,C);
+    output S, Ca;
+    input A, B, C;
+    assign S = (A ^ B) ^ C;
+    assign Ca = (A & B)||(B & C)||(C & A);
+endmodule
+
+module main;
+
+    reg A, B, C;
+    wire S, Ca;
+    myAnd test(S, Ca, A, B, C);
+    
+    initial begin
+        A = 1'b0; B = 1'b0; C = 1'b0;
+        #10
+        A = 1'b0; B = 1'b0; C = 1'b1;
+        #10
+        A = 1'b0; B = 1'b1; C = 1'b0; 
+        #10
+        A = 1'b0; B = 1'b1; C = 1'b1;
+        #10
+        A = 1'b1; B = 1'b0; C = 1'b0;
+        #10
+        A = 1'b1; B = 1'b0; C = 1'b1;
+        #10
+        A = 1'b1; B = 1'b1; C = 1'b0; 
+        #10
+        A = 1'b1; B = 1'b1; C = 1'b1;
+      $finish ;
+    end
+    initial begin
+        $monitor("A = %d, B = %d, C = %d, S = %d, Ca = %d", A, B, C, S, Ca);
+    end
+endmodule

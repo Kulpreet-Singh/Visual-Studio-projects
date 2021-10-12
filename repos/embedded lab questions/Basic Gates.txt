@@ -1,0 +1,29 @@
+module myAnd(X,A,B);
+    output X;
+    input A, B;
+    assign X = ~(A & B);
+endmodule
+
+module main;
+
+    reg A, B;
+    wire x;
+    myAnd test(x, A, B);
+    
+    initial begin
+        A = 1'b0; B = 1'b0;
+        #10
+        A = 1'b0; B = 1'b1;
+        #10
+        A = 1'b1; B = 1'b0;
+        #10
+        A = 1'b1; B = 1'b1;
+        #10
+      $finish ;
+    end
+    initial begin
+        $monitor("A = %d, B = %d, X = %d", A, B, x);
+    end
+endmodule
+
+// and = &, or = | as well as ||, not = ~, xor = ^

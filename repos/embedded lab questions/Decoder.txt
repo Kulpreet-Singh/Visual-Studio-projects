@@ -1,0 +1,37 @@
+module Decoder(A,B,C,D,E,F, I);
+    input E, F, I;
+    output A, B, C, D;
+    assign A = I&(E & F);
+    assign B = I&(~E & F);
+    assign C = I&(E & ~F);
+    assign D = I&(~E & ~F);
+endmodule
+
+module main;
+
+    reg E, F, I;
+    wire A, B, C, D;
+    Decoder test(A, B, C, D, E, F, I);
+    
+    initial begin
+        I = 1'b0; E = 1'b0; F = 1'b0;
+        #10
+        I = 1'b0; E = 1'b0; F = 1'b1;
+        #10
+        I = 1'b0; E = 1'b1; F = 1'b0;
+        #10
+        I = 1'b0; E = 1'b1; F = 1'b1;
+        #10
+        I =1'b1; E = 1'b0; F = 1'b0;
+        #10
+        I =1'b1; E = 1'b0; F = 1'b1;
+        #10
+        I =1'b1; E = 1'b1; F = 1'b0;
+        #10
+        I =1'b1; E = 1'b1; F = 1'b1;
+      $finish ;
+    end
+    initial begin
+        $monitor("I = %d, E = %d, F = %d, A = %d, B = %d, C = %d, D = %d", I, E, F, A, B, C, D);
+    end
+endmodule
