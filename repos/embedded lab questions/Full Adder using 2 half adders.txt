@@ -1,0 +1,55 @@
+module half_add(a,b,s,ci);
+ input a,b;
+	output s,ci;
+assign s=a^b;
+assign ci=a&b;
+endmodule
+
+module orgate(a,b,c);
+input a,b;
+output c;
+assign c=a|b;
+endmodule
+
+module andgate(a,b,c);
+input a,b;
+output c;
+assign c=a&b;
+endmodule
+
+module fullA(A,B,C,Sum,Car);
+	input A,B,C;
+	wire sab,cab,andabc;
+	output Sum,Car;
+	half_add h1(A,B,sab,cab);
+	half_add h2(sab,C,Sum,andabc);
+	
+	orgate h3(cab,andabc,Car);
+endmodule
+
+module main;
+	reg A,B,C;
+	wire S,Ca;
+	fullA test(A,B,C,S,Ca);
+ initial begin
+        A = 1'b0; B = 1'b0; C = 1'b0;
+        #10
+        A = 1'b0; B = 1'b0; C = 1'b1;
+        #10
+        A = 1'b0; B = 1'b1; C = 1'b0; 
+        #10
+        A = 1'b0; B = 1'b1; C = 1'b1;
+        #10
+        A = 1'b1; B = 1'b0; C = 1'b0;
+        #10
+        A = 1'b1; B = 1'b0; C = 1'b1;
+        #10
+        A = 1'b1; B = 1'b1; C = 1'b0; 
+        #10
+        A = 1'b1; B = 1'b1; C = 1'b1;
+      $finish ;
+    end
+    initial begin
+        $monitor("A = %d, B = %d, C = %d, S = %d, Ca = %d", A, B, C, S, Ca);
+    end
+endmodule
