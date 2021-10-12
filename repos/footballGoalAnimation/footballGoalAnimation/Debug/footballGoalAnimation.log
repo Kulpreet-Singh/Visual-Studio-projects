@@ -1,0 +1,68 @@
+﻿  footballGoalAnimation.cpp
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(10,19): error C2065: 'DETECT': undeclared identifier
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(17,5): error C3861: 'clrscr': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(27,5): error C3861: 'initgraph': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(28,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(29,5): error C3861: 'rectangle': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(38,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(39,5): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(40,5): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(41,5): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(42,5): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(44,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(45,5): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(47,10): error C3861: 'first_end_point_region': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(19,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(21,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(23,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(25,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(31,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(33,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(35,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(37,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(43,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(46,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(62,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(69,5): error C3861: 'elseif': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(70,9): error C2143: syntax error: missing ';' before 'return'
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(71,5): error C3861: 'elseif': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(72,9): error C2143: syntax error: missing ';' before 'return'
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(73,5): error C2065: 'elsereturn': undeclared identifier
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(73,16): error C2143: syntax error: missing ';' before 'constant'
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(144,5): error C2181: illegal else without matching if
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(147,5): error C3861: 'cleardevice': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(148,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(149,5): error C3861: 'rectangle': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(152,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(153,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(154,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(155,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(156,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(157,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(158,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(146,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(225,5): error C2181: illegal else without matching if
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(228,5): error C3861: 'cleardevice': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(229,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(230,5): error C3861: 'rectangle': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(233,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(234,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(235,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(236,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(237,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(238,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(239,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(227,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(339,5): error C2181: illegal else without matching if
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(342,5): error C3861: 'cleardevice': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(343,5): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(344,5): error C3861: 'rectangle': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(347,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(348,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(349,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(350,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(351,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(352,9): error C3861: 'setcolor': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(353,9): error C3861: 'line': identifier not found
+C:\Users\kulpr\source\repos\footballGoalAnimation\footballGoalAnimation\footballGoalAnimation.cpp(341,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
